@@ -6,7 +6,14 @@ public class AsistenciaBean {
 	private String 	idServicio;
 	private String 	estado;
 	private int 	idSolicitud;
+	private long 	cuil;
 	
+	public long getCuil() {
+		return cuil;
+	}
+	public void setCuil(long cuil) {
+		this.cuil = cuil;
+	}
 	public int getId() {
 		return id;
 	}

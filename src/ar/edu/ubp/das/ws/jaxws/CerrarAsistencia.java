@@ -13,20 +13,20 @@ import javax.xml.bind.annotation.XmlType;
  * Generated source version: 3.3.3
  */
 
-@XmlRootElement(name = "insertarDetalleAsistencia", namespace = "http://ws.das.ubp.edu.ar/")
+@XmlRootElement(name = "cerrarAsistencia", namespace = "http://ws.das.ubp.edu.ar/")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "insertarDetalleAsistencia", namespace = "http://ws.das.ubp.edu.ar/")
+@XmlType(name = "cerrarAsistencia", namespace = "http://ws.das.ubp.edu.ar/")
 
-public class InsertarDetalleAsistencia {
+public class CerrarAsistencia {
 
     @XmlElement(name = "arg0")
-    private ar.edu.ubp.das.bean.DetalleAsistenciaBean arg0;
+    private ar.edu.ubp.das.bean.AsistenciaBean arg0;
 
-    public ar.edu.ubp.das.bean.DetalleAsistenciaBean getArg0() {
+    public ar.edu.ubp.das.bean.AsistenciaBean getArg0() {
         return this.arg0;
     }
 
-    public void setArg0(ar.edu.ubp.das.bean.DetalleAsistenciaBean newArg0)  {
+    public void setArg0(ar.edu.ubp.das.bean.AsistenciaBean newArg0)  {
         this.arg0 = newArg0;
     }
 
